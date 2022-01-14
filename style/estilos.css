@@ -118,7 +118,7 @@ footer{
 }
 
 .grid-clanes > article{
-    background-image: url(.../img/bgi-1.webp);
+    background-image: url(../img/bgi-1.webp);
     border: none;
     box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.5);
     border-radius: 20px;
@@ -175,7 +175,7 @@ article .text button{
 }
 
 .card1{
-    background-image: url(/img/bgi-1.webp);
+    background-image: url(../img/bgi-1.webp);
     padding: 1.75rem;
     border-radius: 10px;
     display: flex;
