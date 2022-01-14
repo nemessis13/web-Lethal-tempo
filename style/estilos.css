@@ -318,7 +318,7 @@ article .text button{
 }
 
 .noticia1{
-    background-image: url(/img/bgi-1.webp);
+    background-image: url(../img/bgi-1.webp);
     background-position:left;
     background-image: 80%;
     border-radius: 10px;
