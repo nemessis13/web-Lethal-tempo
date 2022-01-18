@@ -67,9 +67,12 @@ body{
     padding: 10px;
 }
 
+
+/* ----- Footer ----- */
+
 footer{
     background-color: #212529;
-    color: blanchedalmond;
+    color: whitesmoke;
     border-top: 2px solid #0db846;
 }
 
@@ -80,19 +83,87 @@ footer{
 .segment-two h2::before{
     content: "|";
     color: #0db846;
-    padding: 2px;
+    padding-right: 10px;
+}
+
+.segment-two{
+    text-transform: uppercase;
 }
 
 .segment-two ul{
     margin: 0;
-    padding: 0;
+    padding: 0 0 20px;
     list-style: none;
 }
 
 .segment-two ul li{
     border-bottom: 1px solid rgba(97, 148, 113, 0.4);
-    padding: 1px;
+    padding: 0 0 10px;
 }
+
+.segment-three h2::before{
+    content: "|";
+    color: #0db846;
+    padding-right: 10px;
+}
+
+.segment-three h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.segment-three a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.segment-three a i{
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 5px 10px;
+}
+
+
+.segment-four h2::before{
+    content: "|";
+    color: #0db846;
+    padding-right: 10px;
+}
+
+.segment-four h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.segment-four form input[ type=submit ]{
+    background-color: whitesmoke;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 5px;
+    color: black;
+}
+
+.segment-four form {
+    display: flex;
+}
+.segment-four form input {
+    padding: 10px;
+}
+
+.footer-bottom-text{
+    text-align: center;
+    background: rgb(29, 29, 29);
+    line-height: 80px;
+
+
+}
+
+
+
+
+
 
 
 .container p{
