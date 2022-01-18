@@ -91,8 +91,8 @@ body{
 }
 
 .burbuja:nth-child(2){
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     left: 35%;
     animation-duration: 3s;
     animation-delay: 2s;
@@ -115,8 +115,8 @@ body{
 }
 
 .burbuja:nth-child(5){
-    width: 40px;
-    height: 40px;
+    width: 10px;
+    height: 10px;
     left: 65%;
     animation-duration: 3s;
     animation-delay: 1s;
@@ -131,8 +131,8 @@ body{
 }
 
 .burbuja:nth-child(7){
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     left: 50%;
     animation-duration: 4s;
     animation-delay: 5s;
@@ -229,12 +229,15 @@ footer{
 .segment-three h2::before{
     content: "|";
     color: #0db846;
-    padding-right: 10px;
 }
 
 .segment-three h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
+}
+
+.segment-three{
+    padding: 0 0 20px;
 }
 
 .segment-three a{
@@ -265,7 +268,7 @@ footer{
 .segment-four form input[ type=submit ]{
     background-color: whitesmoke;
     border: none;
-    padding: 5px 15px;
+    padding: 0 15px;
     margin-left: 5px;
     color: black;
 }
@@ -274,7 +277,7 @@ footer{
     display: flex;
 }
 .segment-four form input {
-    padding: 10px;
+    padding: 0;
 }
 
 .footer-bottom-text{
@@ -284,11 +287,6 @@ footer{
 
 
 }
-
-
-
-
-
 
 
 .container p{
